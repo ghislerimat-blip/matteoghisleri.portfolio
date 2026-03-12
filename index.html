@@ -1,1 +1,79 @@
-<!DOCTYPE html>\n<html lang="en">\n<head>\n    <meta charset="UTF-8">\n    <meta name="viewport" content="width=device-width, initial-scale=1.0">\n    <title>Portfolio</title>\n    <style>\n        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }\n        header { background: #333; color: white; padding: 1rem; text-align: center; }\n        nav { margin: 0; padding: 0; list-style: none; }\n        nav a { color: white; margin: 0 15px; text-decoration: none; }\n        .hero { background: #f4f4f4; padding: 50px 0; text-align: center; }\n        .hero h1 { margin: 0; font-size: 3rem; }\n    </style>\n</head>\n<body>\n    <header>\n        <nav>\n            <a href="#about">About</a>\n            <a href="#projects">Projects</a>\n            <a href="#contact">Contact</a>\n        </nav>\n    </header>\n    <section class="hero">\n        <h1>Welcome to My Portfolio</h1>\n        <p>Showcasing my work and skills.</p>\n    </section>\n</body>\n</html>\n
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #121212;
+            color: #EAEAEA;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .hero {
+            background: linear-gradient(180deg, #1D1D1D, #121212);
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .hero h1 {
+            color: gold;
+        }
+        /* About Section */
+        .about {
+            padding: 20px;
+            text-align: center;
+        }
+        /* Projects Section */
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .project {
+            background-color: #1E1E1E;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 15px;
+            width: 300px;
+        }
+        /* Contact Section */
+        .contact {
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Your go-to place for discovering my professional work and skills.</p>
+    </section>
+    <section class="about">
+        <h2>About Me</h2>
+        <p>A brief introduction about myself and my career.</p>
+    </section>
+    <section class="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>Description of project 1.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Description of project 2.</p>
+        </div>
+        <div class="project">
+            <h3>Project 3</h3>
+            <p>Description of project 3.</p>
+        </div>
+    </section>
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: example@example.com</p>
+    </section>
+</body>
+</html>
